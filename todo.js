@@ -48,7 +48,6 @@ function markAsCompleted(id) {
         if (todo.id === Number(id)) {
                 todo.completed = true
         }
-
         return todo
     })
 
